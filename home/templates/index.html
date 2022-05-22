@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}HOME{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <h1>Hello world.</h1>
+        <p>Today is {{ today }}.</p>
+        {% crispy form %}
+    </div>
+
+{% endblock %}

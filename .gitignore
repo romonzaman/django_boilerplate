@@ -1,0 +1,5 @@
+.DS_Store
+*.pyc
+static/*
+db.sqlite3
+myapp/settings_local.py
